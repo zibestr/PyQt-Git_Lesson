@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoreConstantInTheMiddle" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E127" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+          <option value="type" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="PyQt5-stubs==5.15.2.0" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.append" />
+          <option value="matplotlib.cm.inferno" />
+          <option value="matplotlib.cm.viridis" />
+          <option value="matplotlib.cm.inferno_r" />
+          <option value="matplotlib.cm.terrain" />
+          <option value="servers.enduml" />
+          <option value="servers.startuml" />
+          <option value="main.AbstractProduct.run" />
+          <option value="base_abstracts.AbstractProduct.run" />
+          <option value="int.damage" />
+          <option value="int.armor" />
+          <option value="list.isStuckable" />
+          <option value="assets.classes.warrior.Warrior" />
+          <option value="assets.enemies.Goblin.__setitem__" />
+          <option value="list.__getitem__" />
+          <option value="tuple.append" />
+          <option value="PyQt5.QtWidgets.clicked.connect" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
